@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSP Project - Health and Hygiene</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+  body{background:#f2f7f2;color:#222}
+  header{background:#0a7a42;color:white;padding:40px 20px;text-align:center}
+  header h1{font-size:32px}
+  header p{margin-top:8px;opacity:.9}
+  nav{background:#065a31;color:white;display:flex;justify-content:center;gap:20px;padding:12px;flex-wrap:wrap}
+  nav a{color:white;text-decoration:none;font-weight:bold}
+  .container{max-width:1000px;margin:auto;padding:20px}
+  .card{background:white;padding:22px;border-radius:12px;box-shadow:0 2px 10px #00000015;margin-bottom:20px}
+  .card h2{color:#0a7a42;margin-bottom:10px;border-left:5px solid #0a7a42;padding-left:10px}
+  .card p, .card li{line-height:1.7;font-size:16px}
+  .card ul{margin-left:20px;margin-top:8px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+  .grid img{width:100%;height:220px;object-fit:cover;border-radius:10px}
+  .team{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;text-align:center}
+  .team div{background:#eaf6ee;padding:15px;border-radius:10px}
+  .team b{display:block;margin-top:6px}
+  table{width:100%;border-collapse:collapse;margin-top:10px}
+  th,td{border:1px solid #ccc;padding:10px;text-align:left}
+  th{background:#0a7a42;color:white}
+  footer{background:#065a31;color:white;text-align:center;padding:18px;margin-top:20px}
+  @media(max-width:600px){.grid,.team{grid-template-columns:1fr 1fr}}
+  .btn{display:inline-block;background:#0a7a42;color:white;padding:12px 20px;border-radius:8px;text-decoration:none;margin-top:10px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Community Service Project</h1>
+  <h2>Health & Hygiene Awareness</h2>
+  <p>Kavali, Andhra Pradesh | Academic Year 2025-26</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#objectives">Objectives</a>
+  <a href="#survey">Survey</a>
+  <a href="#activities">Activities</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#team">Our Team</a>
+</nav>
+
+<div class="container">
+
+  <div class="card" id="about">
+    <h2>1. Introduction / Abstract</h2>
+    <p>Health and Hygiene are the foundation of a healthy society. Our CSP project aims to create awareness about personal hygiene, clean surroundings, safe drinking water, balanced diet and disease prevention in our village / town.</p>
+    <p>Through survey, awareness camps, and cleaning activities, we observed the problems faced by people and suggested simple, practical solutions.</p>
+  </div>
+
+  <div class="card" id="objectives">
+    <h2>2. Objectives</h2>
+    <ul>
+      <li>To create awareness about personal and environmental hygiene</li>
+      <li>To educate people about hand washing, dental care, and menstrual hygiene</li>
+      <li>To promote clean drinking water and proper waste disposal</li>
+      <li>To reduce common diseases like cold, fever, dengue, diarrhoea</li>
+      <li>To motivate school children and villagers for daily hygiene habits</li>
+    </ul>
+  </div>
+
+  <div class="card" id="survey">
+    <h2>3. Survey Details</h2>
+    <p>We conducted a door-to-door survey with 50 families in our village.</p>
+    <table>
+      <tr><th>Topic</th><th>Observation</th></tr>
+      <tr><td>Hand Washing</td><td>60% people wash hands before eating</td></tr>
+      <tr><td>Drinking Water</td><td>70% use filtered water, 30% use direct tap water</td></tr>
+      <tr><td>Waste Disposal</td><td>Many throw waste in open places</td></tr>
+      <tr><td>Toilets</td><td>90% have toilets, but cleaning is irregular</td></tr>
+      <tr><td>Health Checkup</td><td>Very few go for regular checkups</td></tr>
+    </table>
+    <p><b>Problems Identified:</b> Lack of awareness, open drainage, plastic waste, unhygienic food habits.</p>
+  </div>
+
+  <div class="card" id="activities">
+    <h2>4. Activities Conducted</h2>
+    <ul>
+      <li><b>Day 1-2:</b> Survey in village & interaction with people</li>
+      <li><b>Day 3:</b> Awareness camp in school - Hand wash demo, posters</li>
+      <li><b>Day 4:</b> Cleaning drive - Village roads, school premises</li>
+      <li><b>Day 5:</b> Health camp with ASHA worker / PHC - BP, Sugar check</li>
+      <li><b>Day 6:</b> Plantation & distribution of dustbins, soap, masks</li>
+    </ul>
+    <a class="btn" href="#gallery">View Our Photos ↓</a>
+  </div>
+
+  <div class="card" id="gallery">
+    <h2>5. Gallery - Our Activities</h2>
+    <div class="grid">
+      <!-- REPLACE THESE WITH YOUR PHOTOS -->
+      <img src="photo1.jpg" alt="Survey">
+      <img src="photo2.jpg" alt="Awareness Camp">
+      <img src="photo3.jpg" alt="Cleaning Drive">
+      <img src="photo4.jpg" alt="Group Photo">
+    </div>
+    <p style="margin-top:10px;color:#555">Photos: Survey, Awareness Camp, Cleaning Activity & Group Photo</p>
+  </div>
+
+  <div class="card">
+    <h2>6. Conclusion & Learning</h2>
+    <p>Through this project we understood that small habits like hand washing, drinking clean water, and keeping surroundings clean can prevent 80% of diseases. We learned teamwork, communication, and social responsibility. We will continue to spread health awareness in our society.</p>
+  </div>
+
+  <div class="card" id="team">
+    <h2>7. Our Team</h2>
+    <div class="team">
+      <!-- CHANGE NAMES & ROLL NUMBERS -->
+      <div>👤<b>Student 1</b><span>Leader</span></div>
+      <div>👤<b>Student 2</b><span>Member</span></div>
+      <div>👤<b>Student 3</b><span>Member</span></div>
+      <div>👤<b>Student 4</b><span>Member</span></div>
+    </div>
+    <p style="margin-top:12px"><b>College:</b> Your College Name, Kavali<br><b>Guide:</b> Faculty Name<br><b>Department:</b> CSE / ECE / etc.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>CSP Project - Health & Hygiene | Made by Our Team | Thank You</p>
+</footer>
+
+</body>
+</html>
